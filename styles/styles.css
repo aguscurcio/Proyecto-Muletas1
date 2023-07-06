@@ -1,0 +1,76 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: firebrick;
+    align-items: center;
+padding: 10px;
+}
+
+.nombre{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.escudo{
+    display: flex;
+    justify-content: space-between;
+height: 80px;
+margin-right: 10px;
+}
+
+a{
+color: goldenrod    ;   
+padding-right: 20px; 
+text-decoration: none;
+font-weight: 700;
+
+}
+
+footer{
+    display: flex;
+    background-color: firebrick;
+    justify-content: space-between;
+    align-items: center;
+padding: 10px;
+}
+
+
+a:hover{
+    color: white;
+}
+
+.resultados {
+    text-align: center;
+} 
+
+.festejo{
+    height: 500px;
+}
+.hinchada{
+    height: 500px;
+}
+.stefano{
+    height: 500px;
+}
+
+
+.Bienvenidos {
+    text-align: center;
+}
+
+header li{  
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+h1{
+    color: goldenrod;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main {
+    background-color: aliceblue;
+}
+
+
