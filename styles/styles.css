@@ -28,6 +28,7 @@ footer{
     justify-content: space-between;
     align-items: center;
 padding: 10px;
+min-height: 70px;
 }
 
 
@@ -64,8 +65,17 @@ h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+h2{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 main {
     background-color: aliceblue;
+}
+
+.titulonosotros{
+    text-align: center;
 }
 
 
@@ -78,5 +88,10 @@ nav {
     padding: 10px 0px   ;
 }
 
+footer {
+    flex-direction: column;
 }
+
+}
+
 
