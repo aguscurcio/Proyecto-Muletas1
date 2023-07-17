@@ -6,13 +6,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Contacto</title>
         <link rel="stylesheet" href="../styles/contacto.css">
+        <!--GOOGLE FONTS-->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap">
+        <!--ANIMATE CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     </head>
     <body>
         
 
 <header>
 
-<nav>
+<nav class="container">
+    <img class="escudo" src="../img/escudo.jpeg" alt="escudo del equipo">
         <a href="../index.html">Inicio</a>
         <a href="contacto.html">Contacto</a>
         <a href="equipos.html">Equipos</a>
@@ -28,35 +33,52 @@
 
 <section>
 
-    <h1>Contacto</h1>
+<div class="content">
 
-<form action="">
+<h1 class="titulo">Contactanos</h1>
 
-<div>
-    <label for="nombre">Ingrese nombre y apellido</label>
-    <input type="text" id="nombre" placeholder="Nombre y apellido..">
+<div class="contact-agrupado">
+<div class="contact-form">
+    <h3>Conctactanos</h3>
+    <form action="">
+        <p>
+            <label>Ingrese nombre y apellido</label>
+            <input class="caja" type="text" name="nombre">
+        </p>
+        <p>
+            <label>Ingresa tu email</label>
+            <input class="caja" type="email" name="email">
+        </p>
+        <p>
+            <label>Ingresa tu celular</label>
+            <input class="caja" type="tel" name="celular">
+        </p>
+        <p class="block">
+            <label>Ingresa tu consulta</label>
+            <textarea class="caja" name="consulta" rows="3"></textarea>
+        </p>
+        <p class="block">
+            <button class="boton">
+                Enviar
+            </button>
+        </p>
+    </form>
+</div>
+<div class="contact-info">
+<h4>Mas informacion</h4>
+<ul>
+<li>Muletas Barber Shop</li>
+<li>+54 9 1162348897</li>
+<li>muletas@gmail.com</li>
+</ul>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit facilis velit saepe soluta corporis ipsam? Quibusdam modi officiis doloremque id?</p>
+<p>Muletas eSports</p>
+</div>
+</div>
 </div>
 
-<div>
-        <label for="email">Ingresa tu email</label>
-        <input type="email" id="email" placeholder="email@gmail.com">
-</div>
 
-<div>
-    <label for="telefono">Ingresa tu celular</label>
-    <input type="tel" id="tel" placeholder="+5411....">
-</div>
 
-<div>
-    <label for="mensaje">Ingresa tu consulta</label>
-    <input type="text" id="Consulta" placeholder="Escribinos tu Consulta">
-</div>
-
-<div>
-<input type="submit" id="Enviar">
-</div>
-
-</form>
 
 </section>
 
@@ -66,7 +88,8 @@
 
     <footer>
 
-        <nav>
+        <nav class="container">
+            <img class="escudo" src="../img/escudo.jpeg" alt="escudo del equipo">
             <a href="../index.html">Inicio</a>
             <a href="contacto.html">Contacto</a>
             <a href="equipos.html">Equipos</a>
@@ -74,9 +97,6 @@
             <a href="tienda.html">Tienda</a>
     </nav>
 
-<div>
-    <img src="" alt="">
-</div>
 
     </footer>
     
