@@ -43,10 +43,40 @@ header a:hover{
     color: firebrick;
 }
 
-main{
+.titulo{
     text-align: center;
-
+    font-size: 3.5em;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 50% 50%; 
+    grid-template-rows: 500px 500px;
+    gap: 1em;
+    padding: 1em;
+    align-content: center;
+    justify-content: center;
+}
+
+.card{
+    border: 2px solid yellow;
+}
+
+.imagen{
+    height: 350px;
+}
+
+.textos{
+    text-align: center;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
 
 footer{
     background-color:goldenrod
