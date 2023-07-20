@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(134, 24, 46);
+}
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.5em;
+color: aliceblue;
+}
+h3{
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+    text-align: center;
+}
+
+header{
+    background-color:goldenrod
+    }
+    
+    header .escudo {
+        margin: 0;
+        padding: 25px 30px;
+        height: 150px;
+    
+    }
+    
+    header .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    header nav{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    
+    header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color:black
+    }
+    
+    header a:hover{
+        color: firebrick;
+    }
+
+
+main{
+    text-align: center;
+
+}
+
+footer{
+    background-color:goldenrod
+    }
+    
+    footer .escudo {
+        margin: 0;
+        padding: 25px 30px;
+        height: 150px;
+    
+    }
+    
+    footer .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    footer nav{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    
+    footer a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color:black
+    }
+    
+    footer a:hover{
+        color: firebrick;
+    }
+
+
+.hinchada{
+    height: 450px;
+    background-position: center center;
+}
+
+.festejo{
+    height: 450px;
+background-position: center center;
+    align-items: center;
+}
+
+.stefano{
+    height: 450px;
+    background-position: center center;
+    align-items: center;
+}
+
+@media (min-width: 720px){
+    header .container{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header nav{
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+}
+
+footer .container{
+flex-direction: row;
+justify-content: space-between;
+}
+
+footer nav{
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+}
+
+}
